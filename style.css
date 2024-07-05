@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+.registros-de-informaçoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+   border-radius: 10px;
+
+}
+.form-container {
+    margin-top: 20px;
+    padding: 40px ;
+    border: 1px solid #100f0f;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .notas {
+    padding: 50px;
+
+}
+.form-container label{
+    padding:5px ;
+}
+
+.form-container input{
+    display: flex;
+   margin-bottom: 10px;
+   }
+   button {
+    margin: 10px ;
+    border-radius:5px ;
+    cursor: pointer;
+   }
